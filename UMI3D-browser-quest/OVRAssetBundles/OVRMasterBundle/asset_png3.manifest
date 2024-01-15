@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3743126901
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 56c27a8c556774868053d6c6aed76ac0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9e6ad29cbd2df8fbe1a15315db0e51ab
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/VR/Textures/cube_texture.png
+- Assets/Oculus/VR/Textures/GazeRing.png
+- Assets/Oculus/VR/Textures/windowgui.png
+- Assets/Oculus/VR/Textures/Black.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/block_wood_01_nml.png
+Dependencies: []

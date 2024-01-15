@@ -1,0 +1,208 @@
+ManifestFileVersion: 0
+CRC: 1303136395
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: asset_resources
+      Dependencies: {}
+    Info_1:
+      Name: scene_startscene
+      Dependencies:
+        Dependency_0: asset_png0
+        Dependency_1: asset_mat0
+        Dependency_2: asset_prefab0
+    Info_2:
+      Name: scene_customcontrollers
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_prefab0
+    Info_3:
+      Name: scene_customhands
+      Dependencies:
+        Dependency_0: asset_png0
+        Dependency_1: asset_mat0
+        Dependency_2: asset_prefab0
+        Dependency_3: asset_exr0
+    Info_4:
+      Name: scene_debugui
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_prefab0
+    Info_5:
+      Name: scene_distancegrab
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_prefab0
+    Info_6:
+      Name: scene_guardianboundarysystem
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_mat1
+        Dependency_2: asset_prefab0
+    Info_7:
+      Name: scene_handsinteractiontrainscene
+      Dependencies:
+        Dependency_0: asset_png1
+        Dependency_1: asset_mat1
+        Dependency_2: asset_prefab0
+        Dependency_3: asset_prefab1
+        Dependency_4: asset_fbx0
+        Dependency_5: asset_exr0
+    Info_8:
+      Name: scene_locomotion
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_mat1
+        Dependency_2: asset_mat2
+        Dependency_3: asset_prefab0
+        Dependency_4: asset_prefab1
+        Dependency_5: asset_fbx3
+    Info_9:
+      Name: scene_mixedrealitycapture
+      Dependencies:
+        Dependency_0: asset_prefab0
+    Info_10:
+      Name: scene_ovroverlay
+      Dependencies:
+        Dependency_0: asset_png2
+        Dependency_1: asset_mat0
+        Dependency_2: asset_prefab0
+        Dependency_3: asset_prefab1
+    Info_11:
+      Name: scene_ovroverlaycanvas
+      Dependencies:
+        Dependency_0: asset_png3
+        Dependency_1: asset_mat2
+        Dependency_2: asset_prefab0
+        Dependency_3: asset_prefab1
+        Dependency_4: asset_shader0
+    Info_12:
+      Name: scene_stereo180video
+      Dependencies:
+        Dependency_0: asset_mat2
+        Dependency_1: asset_prefab0
+        Dependency_2: asset_prefab1
+    Info_13:
+      Name: scene_widevinevideo
+      Dependencies:
+        Dependency_0: asset_mat2
+        Dependency_1: asset_prefab0
+        Dependency_2: asset_prefab1
+    Info_14:
+      Name: asset_png0
+      Dependencies: {}
+    Info_15:
+      Name: asset_png1
+      Dependencies: {}
+    Info_16:
+      Name: asset_png2
+      Dependencies: {}
+    Info_17:
+      Name: asset_png3
+      Dependencies: {}
+    Info_18:
+      Name: asset_mat0
+      Dependencies:
+        Dependency_0: asset_png0
+        Dependency_1: asset_png1
+        Dependency_2: asset_tga0
+        Dependency_3: asset_jpg0
+        Dependency_4: asset_shader0
+    Info_19:
+      Name: asset_mat1
+      Dependencies:
+        Dependency_0: asset_png1
+        Dependency_1: asset_png2
+        Dependency_2: asset_tga0
+        Dependency_3: asset_jpg0
+        Dependency_4: asset_shader0
+    Info_20:
+      Name: asset_mat2
+      Dependencies:
+        Dependency_0: asset_resources
+        Dependency_1: asset_png0
+        Dependency_2: asset_png1
+        Dependency_3: asset_png2
+        Dependency_4: asset_png3
+        Dependency_5: asset_shader0
+    Info_21:
+      Name: asset_ttf0
+      Dependencies: {}
+    Info_22:
+      Name: asset_prefab0
+      Dependencies:
+        Dependency_0: asset_resources
+        Dependency_1: asset_png0
+        Dependency_2: asset_mat0
+        Dependency_3: asset_ttf0
+        Dependency_4: asset_fbx0
+        Dependency_5: asset_fbx1
+        Dependency_6: asset_fbx2
+        Dependency_7: asset_controller0
+        Dependency_8: asset_asset0
+        Dependency_9: asset_physicmaterial0
+    Info_23:
+      Name: asset_prefab1
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_mat1
+        Dependency_2: asset_mat2
+        Dependency_3: asset_fbx0
+        Dependency_4: asset_fbx2
+        Dependency_5: asset_fbx3
+        Dependency_6: asset_wav0
+        Dependency_7: asset_anim0
+        Dependency_8: asset_rendertexture0
+    Info_24:
+      Name: asset_fbx0
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_fbx1
+    Info_25:
+      Name: asset_fbx1
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_fbx0
+    Info_26:
+      Name: asset_fbx2
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_mat1
+    Info_27:
+      Name: asset_fbx3
+      Dependencies:
+        Dependency_0: asset_mat0
+        Dependency_1: asset_mat1
+        Dependency_2: asset_mat2
+    Info_28:
+      Name: asset_controller0
+      Dependencies:
+        Dependency_0: asset_fbx0
+        Dependency_1: asset_fbx1
+    Info_29:
+      Name: asset_tga0
+      Dependencies: {}
+    Info_30:
+      Name: asset_asset0
+      Dependencies: {}
+    Info_31:
+      Name: asset_exr0
+      Dependencies: {}
+    Info_32:
+      Name: asset_jpg0
+      Dependencies: {}
+    Info_33:
+      Name: asset_physicmaterial0
+      Dependencies: {}
+    Info_34:
+      Name: asset_shader0
+      Dependencies: {}
+    Info_35:
+      Name: asset_wav0
+      Dependencies: {}
+    Info_36:
+      Name: asset_anim0
+      Dependencies: {}
+    Info_37:
+      Name: asset_rendertexture0
+      Dependencies: {}

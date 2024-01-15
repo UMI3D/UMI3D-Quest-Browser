@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 3878544458
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7f8bb472af2d4b18271fdec8cfbcfaeb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21c99c86a43ad817b2cb7f65458ae090
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_OculusVideo.mat
+- Assets/Oculus/SampleFramework/Core/Video/Materials/MovieTexture.mat
+- Assets/Oculus/VR/Materials/CubeMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_CinemaText.mat
+- Assets/Oculus/VR/Materials/GazePointer.mat
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_concrete_01.mat
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_tile_01.mat
+- Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Henry.mat
+- Assets/Oculus/SampleFramework/Core/Locomotion/Materials/ColumnGlow.mat
+- Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_360Photo.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/WoodBlock.mat
+- Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Lost.mat
+- Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Farlands.mat
+- Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas/Materials/UI Default Correct.mat
+- Assets/Oculus/SampleFramework/Core/Locomotion/Materials/lambert1.mat
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_wood_01.mat
+- Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Cinema.mat
+Dependencies:
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_resources
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_png0
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_png1
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_png2
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_png3
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_shader0

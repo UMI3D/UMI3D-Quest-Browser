@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 2952021017
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2e0251e54f04e0f5d9d4136b565ba15d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21c99c86a43ad817b2cb7f65458ae090
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/SportsBottle_metal.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/MAT_room_atlas_01.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/SoccerBlack.mat
+- Assets/Oculus/SampleFramework/Usage/GuardianBoundarySystem/Materials/MAT_concrete_01.mat
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_grid_01_dark.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/SoccerWhiteWithOutline.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/GroundMat.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/Ball10WithOutline.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/SoccerWhite.mat
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_cinderblock_01.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/GroundMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/TriangleCursorTargeted.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/MAT_room_atlas_02.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/Ball03WithOutline.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/WoodBlockWithOutline.mat
+- Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_solid.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/Ball10.mat
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_metal_01.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/ToyCubeWithOutline.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/SportsBottle_lid.mat
+- Assets/Oculus/SampleFramework/Core/TouchControllers/Models/touch_controller_MAT.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/SoccerBlackWithOutline.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/ToyCubeMat.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/TriangleCursorUntargeted.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/Ball03.mat
+- Assets/Oculus/SampleFramework/Core/TouchControllers/Materials/touchController_basecolor.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/SportsBottleLidWithOutline.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/SportsBottleMetalWithOutline.mat
+Dependencies:
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_png0
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_png1
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_tga0
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_jpg0
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_shader0

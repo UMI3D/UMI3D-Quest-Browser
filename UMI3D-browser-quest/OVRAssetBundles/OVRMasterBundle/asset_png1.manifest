@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 1039899657
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d2a61fbc9c31c651d5111fe8101453a5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 49475acadbcf6e2a72b3fb4ba7f2e8af
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-0_comp_dir.png
+- Assets/Oculus/VR/Textures/OculusTouchForRift/touchController_albedo.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_msm.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/concrete_01_nml.png
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/diorama_paint_diorama_bg_elements_Normal.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_nml.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_dif.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/concrete_01_dif.png
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/grid_10x10_v4.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/grid_01_dark.png
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/ControllerBoxTextures/controller_plain_Normal.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_01_nml.png
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/XingLight.png
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/selection_cylinder_filled.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_brick_01_dif.png
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/ReflectionProbe-0.png
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/ControllerBoxTextures/controller_plain_DiffuseGlossiness.png
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/triangles.png
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/diorama_paint_diorama_main_elements_DiffuseGlossiness.png
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Textures/diorama_paint_diorama_bg_elements_DiffuseGlossiness.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_02_msm.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/metal_01_nml.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_02_emi.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_nml.png
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/CubeTex.png
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-1_comp_dir.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/wall_cinder_01_msm.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/concrete_01_msm.png
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Textures/metal_01_dif.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_02_nml.png
+Dependencies: []

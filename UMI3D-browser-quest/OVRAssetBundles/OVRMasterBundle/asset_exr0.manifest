@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 4101162594
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 35b970c40a915d862ef791fbe0771538
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 49475acadbcf6e2a72b3fb4ba7f2e8af
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-0_comp_light.exr
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/Lightmap-1_comp_light.exr
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/TrainScene/ReflectionProbe-1.exr
+- Assets/Oculus/SampleFramework/Usage/CustomHands/ReflectionProbe-0.exr
+- Assets/Oculus/SampleFramework/Usage/CustomHands/Lightmap-0_comp_light.exr
+Dependencies: []

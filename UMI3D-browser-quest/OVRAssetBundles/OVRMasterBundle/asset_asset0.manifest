@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2500590587
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 302a60ae816db3d1c2172b4a3f3ed81f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b1c4c89ef90976e0af8e967bcb404a52
+HashAppended: 0
+ClassTypes:
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Core/DistanceGrab/Mesh/GrabConeVolume.asset
+Dependencies: []

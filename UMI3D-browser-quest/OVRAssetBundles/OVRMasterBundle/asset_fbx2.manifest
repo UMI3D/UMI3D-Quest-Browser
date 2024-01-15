@@ -1,0 +1,69 @@
+ManifestFileVersion: 0
+CRC: 2865805017
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3b463416b7b83cf5ce1774ebeccb9b69
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 25f3d5ea72b6c88ac6d7093d5a6679d7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/Cube_1_9.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/Cube_1_6.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/Cube_1_2.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/ThinBars.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WedgeCeiling_20.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WedgeFloor_05.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/Cube_1_4.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WedgeFloor_07.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WalkWedge_01.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/Cube_1_1.fbx
+- Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WedgeFloor_01.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/BlockSunken_01.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/room_01.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_03.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/Cube_1x1.fbx
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/SelectionCylinder.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_soccer_01.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WedgeFloor_02.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/block_wood_01.fbx
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Models/WedgeCeiling_05.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/table_01.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/doorframe_01.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/SportsBottle_01.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/door_01.fbx
+- Assets/Oculus/VR/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx
+- Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Left.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/light_01.fbx
+- Assets/Oculus/VR/Meshes/OculusTouchForRift/right_touch_controller_model_skel.fbx
+- Assets/Oculus/VR/Meshes/OculusGoController/OculusGoController.fbx
+Dependencies:
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_mat1

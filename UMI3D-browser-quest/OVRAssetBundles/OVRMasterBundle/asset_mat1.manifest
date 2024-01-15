@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 2571320567
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc764b69ddb87d8e74fdb7e4d247daac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 166ccc02b23b388be49378fccb1ac3fe
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/TriPlanarWorld.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/HandsNotificationMaterial.mat
+- Assets/Oculus/SampleFramework/Core/Locomotion/Materials/TeleportLaser.mat
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_floor_wood_02.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/RayMaterial.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/TargetMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/PropMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SmokeMat.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SkyboxForRealtime.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/GridMat.mat
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_grid_01_light.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SelectionCylinderBase.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/WindmillMaterial.mat
+- Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/SkeletonBoneMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBoxButtons.mat
+- Assets/Oculus/VR/Materials/BasicHandMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/XingLightMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBoxGlow.mat
+- Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/MAT_brick_01.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/DefaultHandMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SelectionCylinder.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/PokeMaterial.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/SystemGestureSkeletonBoneMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBox.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/SystemGestureHandMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/BackgroundMaterial.mat
+- Assets/Oculus/VR/Meshes/OculusGoController/Materials/OculusGoControllerMat.mat
+- Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SmokeBillowMat.mat
+- Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat
+Dependencies:
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_png1
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_png2
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_tga0
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_jpg0
+- D:/GamelinG/Documents/Unity/Sandboxes/QuestSandbox3/OVRAssetBundles/OVRMasterBundle/asset_shader0
