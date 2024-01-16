@@ -134,8 +134,10 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.8.21.240115
-  preloadedAssets: []
+  bundleVersion: 3.3.0.240116
+  preloadedAssets:
+  - {fileID: -3624168398625098855, guid: baaa37146a13d2c45b1adb2afb5cb730, type: 2}
+  - {fileID: 11400000, guid: 3c913eb686950a940b80bf23f7120c5d, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -162,7 +164,7 @@ PlayerSettings:
     iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 31
+  AndroidBundleVersionCode: 32
   AndroidMinSdkVersion: 29
   AndroidTargetSdkVersion: 32
   AndroidPreferredInstallLocation: 0
@@ -250,7 +252,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: umi3d.keystore'
+  AndroidKeystoreName: '{inproject}: Assets/EXCLUDED/Keystore/umi3d.keystore'
   AndroidKeyaliasName: umi3d quest
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -704,7 +706,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    Android: AMPLIFY_SHADER_EDITOR;UNITY_POST_PROCESSING_STACK_V2
+    Android: 
     CloudRendering: UNITY_POST_PROCESSING_STACK_V2
     GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2
     Lumin: UNITY_POST_PROCESSING_STACK_V2
@@ -712,7 +714,7 @@ PlayerSettings:
     PS4: UNITY_POST_PROCESSING_STACK_V2
     PS5: UNITY_POST_PROCESSING_STACK_V2
     Stadia: UNITY_POST_PROCESSING_STACK_V2
-    Standalone: AMPLIFY_SHADER_EDITOR;UNITY_POST_PROCESSING_STACK_V2
+    Standalone: 
     WebGL: UNITY_POST_PROCESSING_STACK_V2
     Windows Store Apps: UNITY_POST_PROCESSING_STACK_V2
     XboxOne: UNITY_POST_PROCESSING_STACK_V2
