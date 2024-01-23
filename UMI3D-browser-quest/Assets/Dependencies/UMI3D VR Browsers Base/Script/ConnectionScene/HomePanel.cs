@@ -98,8 +98,9 @@ namespace umi3dVRBrowsersBase.connection
             if (displayFavoriteServers)
             {
                 favoriteServersSlider.Clear();
-                System.Collections.Generic.List<PlayerPrefsManager.VirtualWorldData> favoriteServers = PlayerPrefsManager.GetFavoriteVirtualWorlds();
-                foreach (PlayerPrefsManager.VirtualWorldData data in favoriteServers)
+                System.Collections.Generic.List<VirtualWorldData> favoriteServers = PlayerPrefsManager.GetVirtualWorlds().FavoriteWorlds;
+                UnityEngine.Debug.LogError($"{favoriteServers.Count}");
+                foreach (VirtualWorldData data in favoriteServers)
                 {
                     GameObject go = Instantiate(favoriteServersSlider.baseElement, favoriteServersSlider.Container.transform);
                     FavoriteServerEntry entry = go.GetComponent<FavoriteServerEntry>();

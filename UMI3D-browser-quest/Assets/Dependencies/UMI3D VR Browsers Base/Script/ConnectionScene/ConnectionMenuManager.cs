@@ -283,8 +283,7 @@ namespace umi3dVRBrowsersBase.connection
         static bool? _masterServerFound = null;
         protected bool ShouldDisplaySessionScreen = false;
 
-        protected PlayerPrefsManager.VirtualWorldData currentVirtualWorld = new PlayerPrefsManager.VirtualWorldData();
-        protected System.Collections.Generic.List<PlayerPrefsManager.VirtualWorldData> savedServers = new System.Collections.Generic.List<PlayerPrefsManager.VirtualWorldData>();
+        protected VirtualWorldData currentVirtualWorld = new VirtualWorldData();
 
         protected umi3d.cdk.collaboration.LaucherOnMasterServer masterServer = new umi3d.cdk.collaboration.LaucherOnMasterServer();
 
@@ -334,10 +333,23 @@ namespace umi3dVRBrowsersBase.connection
 
             void SaveVirtualWorld()
             {
-                if (currentVirtualWorld.isFavorite)
-                    if (savedServers.Find((data) => data.worldName == currentVirtualWorld.worldName) == null) savedServers.Add(currentVirtualWorld);
-                //ServerPreferences.StoreRegisteredServerData(savedServers);
-                PlayerPrefsManager.SaveVirtualWorld(currentVirtualWorld);
+                var worlds = PlayerPrefsManager.GetVirtualWorlds();
+                if (worlds.Contains(currentVirtualWorld))
+                {
+                    UnityEngine.Debug.LogError($"message");
+                    worlds.UpdateWorld(currentVirtualWorld);
+                }
+                else
+                {
+                    UnityEngine.Debug.LogError($"message");
+                    worlds.AddWorld(currentVirtualWorld);
+                    if (currentVirtualWorld.isFavorite)
+                    {
+                        worlds.AddWorldToFavoriteWorlds(currentVirtualWorld);
+                    }
+                }
+
+                //PlayerPrefsManager.SaveVirtualWorld(worlds);
             }
 
             //1. Try to find a master server
