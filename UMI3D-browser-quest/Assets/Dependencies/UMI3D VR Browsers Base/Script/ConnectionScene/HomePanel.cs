@@ -90,7 +90,8 @@ namespace umi3dVRBrowsersBase.connection
             panel.SetActive(true);
             LoadingPanel.Instance.Hide();
 
-            bool displayFavoriteServers = PlayerPrefsManager.HasVirtualWorldsStored() && !forceDisplayAddNewServer;
+            var worlds = PlayerPrefsManager.GetVirtualWorlds();
+            bool displayFavoriteServers = worlds.favoriteURLs.Count > 0 && !forceDisplayAddNewServer;
 
             newServerPanel.SetActive(!displayFavoriteServers);
             favoriteServerPanel.SetActive(displayFavoriteServers);
@@ -98,8 +99,9 @@ namespace umi3dVRBrowsersBase.connection
             if (displayFavoriteServers)
             {
                 favoriteServersSlider.Clear();
-                System.Collections.Generic.List<VirtualWorldData> favoriteServers = PlayerPrefsManager.GetVirtualWorlds().FavoriteWorlds;
-                UnityEngine.Debug.LogError($"{favoriteServers.Count}");
+                worlds.DebugFavoriteListCreation();
+                System.Collections.Generic.List<VirtualWorldData> favoriteServers = worlds.FavoriteWorlds;
+
                 foreach (VirtualWorldData data in favoriteServers)
                 {
                     GameObject go = Instantiate(favoriteServersSlider.baseElement, favoriteServersSlider.Container.transform);

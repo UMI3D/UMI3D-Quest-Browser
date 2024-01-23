@@ -336,20 +336,16 @@ namespace umi3dVRBrowsersBase.connection
                 var worlds = PlayerPrefsManager.GetVirtualWorlds();
                 if (worlds.Contains(currentVirtualWorld))
                 {
-                    UnityEngine.Debug.LogError($"message");
                     worlds.UpdateWorld(currentVirtualWorld);
                 }
                 else
                 {
-                    UnityEngine.Debug.LogError($"message");
                     worlds.AddWorld(currentVirtualWorld);
                     if (currentVirtualWorld.isFavorite)
                     {
                         worlds.AddWorldToFavoriteWorlds(currentVirtualWorld);
                     }
                 }
-
-                //PlayerPrefsManager.SaveVirtualWorld(worlds);
             }
 
             //1. Try to find a master server

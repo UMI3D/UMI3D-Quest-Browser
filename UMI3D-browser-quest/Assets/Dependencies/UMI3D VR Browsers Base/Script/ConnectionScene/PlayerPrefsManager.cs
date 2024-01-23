@@ -116,72 +116,6 @@ namespace umi3dVRBrowsersBase.connection
         #endregion
 
 
-        #region Methods
-
-
-        ///// <summary>
-        ///// Return true if at least one VirtualWorld is set to favorite;
-        ///// </summary>
-        ///// <returns></returns>
-        //public static bool HasFavoriteVirtualWorldsStored()
-        //{
-        //    if (PlayerPrefs.HasKey(Umi3dVirtualWorlds))
-        //    {
-        //        VirtualWorlds data = JsonUtility.FromJson<VirtualWorlds>(PlayerPrefs.GetString(Umi3dVirtualWorlds));
-        //        if (data != null)
-        //        {
-        //            return data.worlds.Where(d => d.isFavorite).Count() > 0;
-        //        }
-        //    }
-            
-        //    return false;
-        //}
-
-        ///// <summary>
-        ///// Returns a list of all favorite VirtualWorld.
-        ///// </summary>
-        ///// <returns></returns>
-        //public static List<VirtualWorldData> GetFavoriteVirtualWorlds()
-        //{
-        //    if (HasVirtualWorldsStored())
-        //        return GetVirtualWorlds().Where(d => d.isFavorite)
-        //                                 .OrderBy(d => d.indexFavorite)
-        //                                 .ToList();
-
-        //    return new ();
-        //}
-
-        ///// <summary>
-        ///// If a VirtualWorld with <see cref="url"/> as url is currently stored, remove from favorite.
-        ///// </summary>
-        ///// <param name="url"></param>
-        //public static void RemoveServerFromFavorite(string url)
-        //{
-        //    if (!HasFavoriteVirtualWorldsStored()) return;
-            
-        //    var virtualWorlds = GetFavoriteVirtualWorlds();
-        //    var favoriteFound = false;
-        //    UnityEngine.Debug.LogError($"favorites = {virtualWorlds.Count}, {url}");
-
-        //    for (int i = 0; i < virtualWorlds.Count; i++)
-        //    {
-        //        if (!favoriteFound)
-        //        {
-        //            if (virtualWorlds[i].worldUrl != url) continue;
-        //            favoriteFound = true;
-
-        //            virtualWorlds[i].isFavorite = false;
-        //        }
-        //        else
-        //        {
-        //            virtualWorlds[i].indexFavorite -= 1;
-        //        }
-        //    }
-        //    PlayerPrefs.SetString(Umi3dVirtualWorlds, JsonUtility.ToJson(virtualWorlds));
-        //    PlayerPrefs.Save();
-        //}
-
-
         /// <summary>
         /// Contains : environment name, ip and port.
         /// </summary>
@@ -194,12 +128,6 @@ namespace umi3dVRBrowsersBase.connection
 
             public override string ToString() => $"name = {environmentName}, ip = {ip}, port = {port}";
         }
-
-        
-
-        
-
-        #endregion
     }
 
     /// <summary>
@@ -292,6 +220,7 @@ namespace umi3dVRBrowsersBase.connection
 
         public void AddWorldToFavoriteWorlds(VirtualWorldData world, int index = -1)
         {
+            UnityEngine.Debug.LogError($"here");
             if (index < 0)
             {
                 index = favoriteURLs.Count;
@@ -310,6 +239,17 @@ namespace umi3dVRBrowsersBase.connection
             worlds.Find(_world => _world.worldUrl == url).isFavorite = false;
             favoriteURLs.Remove(url);
             PlayerPrefsManager.SaveVirtualWorld(this);
+        }
+
+        public void DebugFavoriteListCreation()
+        {
+            foreach (var world in worlds) 
+            {
+                if (world.isFavorite && !favoriteURLs.Contains(world.worldUrl))
+                {
+                    favoriteURLs.Add(world.worldUrl);
+                }
+            }
         }
     }
 }
